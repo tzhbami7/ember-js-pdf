@@ -4,6 +4,6 @@ module.exports = {
   normalizeEntityName: function() {},
 
   afterInstall: function(options) {
-    return this.addBowerPackageToProject('jspdf-autotable', '2.0.33'));
+    return this.addBowerPackageToProject('jspdf-autotable', '2.0.33');
   }
 };
