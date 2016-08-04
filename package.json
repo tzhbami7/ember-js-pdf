@@ -1,7 +1,7 @@
 {
   "name": "ember-js-pdf",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "2.0.33",
+  "description": "Ember addon for jsPDF with autotable plugin",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -40,12 +40,22 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+		"jsPDF"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/weteachme/ember-js-pdf.git"
+	},
+	"bugs": {
+		"url": "https://github.com/weteachme/ember-js-pdf/issues"
+	},
+  "homepage": "https://github.com/weteachme/ember-js-pdf"
 }
