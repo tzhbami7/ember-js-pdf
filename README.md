@@ -1,4 +1,5 @@
-# Ember-js-pdf
+# ember-js-pdf
+Ember Shim for jsPDF
 
 This README outlines the details of collaborating on this Ember addon.
 
